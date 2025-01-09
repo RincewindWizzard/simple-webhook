@@ -3,10 +3,13 @@ name = "simple-webhook"
 version = "0.1.0"
 description = ""
 authors = ["RincewindWizzard <git@magierdinge.de>"]
+repository = "git@github.com:RincewindWizzard/simple-webhook.git"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+flask = "^3.1.0"
+tomli = "^2.2.1"
 
 
 [build-system]
